@@ -1,2 +1,2 @@
 # API keys
-Niaz files for AQI/config.py
+/Niaz files for AQI/config.py
