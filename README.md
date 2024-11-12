@@ -35,7 +35,7 @@ Our data processing involved the following steps:
 2. **Feature Engineering:** Created new features to enhance model inputs:
    - Violation Code Aggregation: Combined less common violation codes into an “Other” category to improve model performance.
    - Issuing Agency Aggregation: Grouped agencies that infrequently issued tickets.
-   - Time Period Creation: Converted raw time into defined periods (e.g., morning, lunch, evening) to better capture behavioral patterns.
+   - Time Period Creation: Converted raw time into defined periods (e.g., morning, afternoon, evening) to better capture behavioral patterns.
    - Weekend Indicator: Added a Boolean field to indicate whether the ticket was issued on a weekend or a weekday.
    - Out-of-State Indicator: Created a field to mark out-of-state vehicles.
    - Location Standardization: Mapped latitude/longitude to specific D.C. neighborhoods using geoJSON polygons, enhancing spatial analysis.
